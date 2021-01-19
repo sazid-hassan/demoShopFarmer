@@ -1,0 +1,171 @@
+body{
+    background-color: #ffffff;
+    font-size: 16px;
+    font-family: sans-serif;
+    border: 0;
+    margin: 0;
+}
+
+.topbar{
+    display: flex;
+    background-color: #c2bbbb;
+    padding-left: 10%;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    top: 0;
+}
+
+.farmers{
+    color: #1fc414;
+}
+
+.navbar{
+    background-color: #f1f5eb;
+    display: inline-block;
+    width: 100%;
+}
+
+.navbar ul{
+    display: inline-block;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.navbar h1{
+    padding-left: 100px;
+}
+
+.menuNav{
+    float: right;
+}
+
+.menuNav a{
+    color: black;
+    margin-right: 30px;
+}
+
+.menuNav .lastChild{
+    margin-right: 100px;
+}
+
+ul h3{
+    font-weight: normal;
+    display: inline-block;
+}
+
+
+.cover{
+    margin-top: 0;
+    background-image: url("resources/farmCover.jpg");
+    background-size: cover;
+    filter: contrast(200%);
+    height: 420px;
+    padding-left: 10%;
+
+}
+
+.cover h1{
+    color: #090909;
+    width: 40%;
+}
+
+.cover p{
+    width: 40%;
+}
+
+.shopbutton{
+    margin-top: 30px;
+    font-size: 24px;
+    background-color: #ffa328;
+    height: 50px;
+    width: 250px;
+    border: dodgerblue;
+    border-radius: 25px;
+}
+
+
+.shopbutton a{
+
+    text-decoration: none;
+}
+
+
+.contentBodyImage{
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    background-image: url("resources/farmPic.jpg");
+    background-size: cover;
+    height: 450px;
+}
+
+.contentsBody{
+    margin-top: 30px;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: 80px;
+    color: green;
+}
+
+.contentsBody ul{
+    display: inline-block;
+    padding-right: 5%;
+}
+
+.caption_img{
+    font-size: 15px;
+    color: black;
+}
+
+
+.footer {
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    color: white;
+    background-color: #183818;
+}
+
+.footer p{
+    text-align: center;
+}
+
+.credentialBody{
+    background-image: url("resources/jungleBody.jpg");
+    background-size: cover;
+    height: 350px;
+    color: white;
+    padding-top: 5%;
+    padding-left:15%;
+    font-size: 14px;
+}
+
+.credentialBody a{
+    text-decoration: none;
+    padding-right: 15%;
+    color: white;
+}
+
+.credentialBody h3{
+    float: left;
+    font-weight: bold;
+}
+
+.credentialBody ul{
+    padding-left: 0;
+}
+
+.credentialBody p{
+    width: 30%;
+}
+
+
+.horizontalList{
+    display: inline-block;
+    float: left;
+    padding-right: 30%;
+}
