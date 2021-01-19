@@ -24,6 +24,7 @@ body{
     background-color: #f1f5eb;
     display: inline-block;
     width: 100%;
+    margin-bottom: 0;
 }
 
 .navbar ul{
@@ -59,12 +60,12 @@ ul h3{
 
 .cover{
     margin-top: 0;
+    padding-top: 0;
     background-image: url("resources/farmCover.jpg");
     background-size: cover;
+    background-position: center;
     filter: contrast(200%);
-    height: 420px;
     padding-left: 10%;
-
 }
 
 .cover h1{
@@ -99,8 +100,9 @@ ul h3{
     margin-right: 10%;
     width: 80%;
     background-image: url("resources/farmPic.jpg");
+    background-position: center;
     background-size: cover;
-    height: 450px;
+    height: 543px;
 }
 
 .contentsBody{
@@ -136,6 +138,7 @@ ul h3{
 
 .credentialBody{
     background-image: url("resources/jungleBody.jpg");
+    background-position: center;
     background-size: cover;
     height: 350px;
     color: white;
